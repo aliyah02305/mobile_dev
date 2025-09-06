@@ -1,0 +1,59 @@
+<p>JavaScript code blocks are written between { and }</p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "Hello Dolly!";
+  document.getElementById("demo2").innerHTML = "How are you?";
+}
+</script>
+
+<p id="demo"></p>
+<script>let x =5;
+let y = x +2;
+
+document.getElementById("demo").innerHTML = y;
+</script>
+
+<h1 id="myH"></h1>
+<p id="myP"></p>
+
+<script>
+/*
+The code below will change
+the heading with id = "myH"
+and the paragraph with id = "myP"
+*/
+document.getElementById("myH").innerHTML = "JavaScript Comments";
+document.getElementById("myP").innerHTML = "My first paragraph.";
+</script>
+
+
+<h1 id="myH"></h1>
+
+<p id="myP"></p>
+
+<script>
+//document.getElementById("myH").innerHTML = "My First Page";
+document.getElementById("myP").innerHTML = "My first paragraph.";
+</script>
+
+<p>The line starting with // is not executed.</p>
+
+<p id="myP"></p>
+
+<script>
+/*
+document.getElementById("myH").innerHTML = "Welcome to my Homepage";
+document.getElementById("myP").innerHTML = "This is my first paragraph.";
+*/
+document.getElementById("myP").innerHTML = "The comment-block is not executed.";
+</script>
+
+</body>
+</html>
+
